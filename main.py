@@ -8,27 +8,6 @@ load_dotenv(".env")
 token = os.getenv('TOKEN')
 
 
-# # print(dic["created_at"])
-# print(dic["bio"])4
-# # print(dic["avatar_url"])
-# print(dic["login"])
-# print(dic["followers"])
-# print(dic["following"])
-# print(dic["public_repos"])  # number
-# number = (dic["public_repos"])  # number
-# url = (dic["repos_url"])
-# repos_url = requests.get(url)
-# for i in range(0, number):
-#     print(repos_url.json()[i]["html_url"])
-
-#
-
-# except KeyError:
-#     print("Told you to enter valid username wtf")
-# image = result.json()["avatar_url"]
-# print(image)
-
-
 client = commands.Bot(command_prefix="?", intents=discord.Intents.all())
 
 
